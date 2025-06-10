@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html{
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left, #18aaaa, #144b4b, black);
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+/*lado esquerdo*/
+.text-leads{
+    color: white;
+    
+}
+.text-leads h1{
+    font-size: 30px;
+    padding-bottom: 25px;
+    
+}
+.text-leads p{
+    font-size: 11px;
+    padding-bottom: 250px;
+   
+}
+.text-leads h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+.icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border:  solid var(#14e6e6);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #14e6e6;
+    margin: 5px 5px 0;
+
+}
+
+/*lado direito*/
+form{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 20px;
+    padding: 40px;
+}
+form h2{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 20px;
+}
+.input-box{
+    display: block;
+    color: white;
+}
+.input-box input{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+
+}
+.btn-enviar{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-enviar input{
+    width: 140px;
+    height: 50px;
+    border: 0;
+    background-color: #14e6e6;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
