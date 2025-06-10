@@ -1,0 +1,237 @@
+/* ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    height: 100vh;
+      
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    
+}
+.logo h3{
+    margin-left: 20px;
+    color: #14e6e6;
+ 
+}
+span{
+    color: #14e6e6;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #14e6e6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.titulo {
+    margin-top: 40px;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+span{
+    color: #14e6e6;
+}
+
+/* ESTILO DO CABEÇALHO */
+.logo{
+    margin-top: 5px;
+}
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #14e6e6;
+    transform: scale(1.05);
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #14e6e6;
+    transform: scale(1.05);
+}
+/* ESTILO DO TOPO DO SITE */
+.topo-do-site .flex{
+
+    align-content: center;
+    justify-content:space-between;
+    gap: 40px;
+   
+}
+.txt-topo-site{
+    margin-top: 140px;
+    margin-left: 40px;
+}
+h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.topo-do-site{
+    color: white;
+
+}
+
+.txt-topo-site p{
+    line-height: 16px;
+}
+.img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+.img-topo-site img{
+    margin-right: 40px;
+    margin-top: 10px;
+
+    
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DAS ESPECIALIDADES*/
+.especialidades_box{
+    padding: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+.especialidades_box:hover{
+    scale: 1.1;
+    transition-duration: 0.3s;
+    border: #14e6e6 solid 2px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px #14e6e65b;
+    background-color: #14e6e609;
+    
+}
+.box{
+    margin-top: 25px;
+    display: flex;
+    padding: 60px 50px;
+    gap: 170px;
+    text-align: center;
+}
+i img{
+    width: 60px;
+    margin-bottom: 7px;
+}
+.webimg {
+    padding-right: 5px;
+}
+.gameimg{
+    margin-bottom: 10px;
+    width: 60px;
+}
+.interface h2{
+    margin-top: 100px;
+}
+.especialidades_box h3{
+    margin-bottom: 10px;
+}
+/* ESTILO DAS CONTATO*/
+
+.contatos{
+    margin-top: 20px;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(75, 72, 72, 0.267);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+form .btn-enviar input{
+    width: 120px;
+    background-color: #14e6e6;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+/* ESTILO DE FOOTER*/
+.footer{
+    display: flex;
+    padding: 30px ;
+    margin:0;
+    background-color: #14e6e6bd;
+}
+ul{
+    margin-top: 15px;
+}
+.sociais{
+    margin-left: 65px;
+}
+.sociais :hover{
+    scale: 1.1;
+}
+.sociais img{
+    align-items: center;
+    width: 40px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 10px;
+}
+.homebar a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin: 10px;
+}
