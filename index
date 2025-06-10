@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathas Silva</title>
+    <link rel="stylesheet" href="index.css">
+    <!--CODIGO GOOGLE FONS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <!--FIM DO GOOGLE FONS--> 
+    
+</head>
+
+<body>
+
+    <header>
+    <div class="interface">
+        <div class="logo">
+           <a href=""><img src="img/logo.png" alt="" width="130px"></a> 
+        </div><!--fim logo-->
+    
+    <nav class="menu-desktop">
+        <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#especialidades">Portfólio</a></li>
+       <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+    <div class="btn-contato">
+        <a href="contact.html">
+            <button>Contato</button>
+        </a>
+    </div><!--btn-contato-->
+</div><!--interface-->
+
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                    <h1>Olá, me chamo <br> <span>Jonathas Silva</span></h1><br>
+                    <h3>Sou estudante de engenharia de software</h3>
+                    <p>apaixonado pela area de tecnologia e criação de aplicativos, no intuito <br>
+                    de compreender especialidades, bem como desenvolver soluções <br>
+                inovadoras para o dia a dia.</p><br>
+                    <div class="btn-contato">
+                        <a href=""><button>Entre em contato</button></a>
+                    </div>
+                    </div><!--topo-do-site-->
+                    <div class="img-topo-site">
+                        <img src="img/teste img.png" alt="eu"
+                        width="400">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div> <!--Interface-->
+        </section><!--topo-do-site-->
+    </main>
+    
+    <section class="especialidades">
+        <div class="interface">
+            <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+            <div class="flex">
+                <div class="box">
+                <div class="especialidades_box">
+                    <i><img class="webimg" src="img/web.png" alt="site">
+                        <h3>WEBSITE</h3>
+                        <p>Para platafromas funcionais, esteticamente atraentes e compativeis <br>
+                        com as últimas tendencias tecnologicas. isso envolve a utilização do JavaScript, PHP<br>
+                    além de frameworks.</p>
+                        </i>
+                </div>
+
+                <div class="especialidades_box">
+                    <i><img class="gameimg" src="img/computer-game.png" alt="site">
+                        <h3 class="distancia">JOGOS</h3>
+                        <p>Especializando na area de jogos onde utilizo C++, C# e JavaScript <br>
+                        compreendendo  desing, mecânica, narrativa, balanceamento e interação ao jogador.</p>
+                       </i>
+                </div>
+                
+             </div><!--box-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section>
+
+    <section class="contatos">
+        <div class="interface">
+            <h2 class="titulo"> FALA <span>COMIGO.</span></h2>
+            <form action="">
+                <input type="text" placeholder="Seu Nome Completo:" required>
+                <input type="text" placeholder="Seu E-mail:"  required>
+                <input type="text" placeholder="Seu Celular:">
+                <textarea name="" placeholder="Sua Mensagem" required></textarea>
+               <div class="btn-enviar"> 
+                <input type="submit" value="Enviar">
+            </div>
+            </form>
+        </div>
+    </section>
+
+        <section class="footer">
+            <div class="interface">
+                <div class="espaço">
+                <ul class="sociais">
+                    <a href=""><img src="img/instagram-alt-logo-24.png" alt=""></a>
+                    <a href=""><img src="img/linkedin-square-logo-24.png" alt=""></a>
+                    <a href=""><img src="img/github-logo-24.png" alt=""></a>
+                    <a href=""><img src="img/facebook-circle-logo-24.png" alt=""></a>
+                </ul>
+                <ul class="homebar">
+                    <a href="">Home</a>
+                    <a href="">Portfólio</a>
+                    <a href="">Sobre</a>
+                    <a href="">News</a>
+                    <a href="">Contaet Up</a>
+                </ul>
+                </div>
+            </div>
+        </section>
+
+</body>
+
+</html>
