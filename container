@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<header>
+   
+</header>
+<body>
+    <section>
+    <div class="container">
+        <div class="flex">
+            <div class="text-leads">
+        <h1>LOCALIZAÇÃO</h1>
+        <p>2ª travessa Inácio de Barros Barreto nº24 <Br>
+        Cep 50741400</Br></p>
+    
+    <div class="text-leads2">
+        <h2>
+        SIGA-NOS  
+    </h2>
+     
+      <div class="icons">
+        <a href=""> <img src="img/instagram-alt-logo-24.png" alt=""></a>
+        <a href=""> <img src="img/facebook-circle-logo-24.png" alt=""></a>
+        <a href=""> <img src="img/linkedin-square-logo-24.png" alt=""></a>
+        <a href=""> <img src="img/github-logo-24.png" alt=""></a>
+     </div><!--texte-leads2-->
+    </div><!--text-leads-->
+</div><!--lado esquerdo-->
+
+    <div class="form-leads">
+       
+        <form action="" method="post">
+             <h2>FORMULARIO DE CONTATO</h2>
+             
+             <div class="input-box">    
+                 <label for="nome">Nome:</label>
+                 <input type="text" name="" id="nome">
+            </div><!--input-box-->
+
+             <div class="input-box">    
+                 <label for="nome">Telefone:</label>
+                 <input type="text" name="" id="nome" required>
+            </div><!--input-box-->
+
+             <div class="input-box">    
+                 <label for="nome">E-mail:</label>
+                 <input type="text" name="" id="nome" required>
+            </div><!--input-box-->
+
+            <div class="btn-enviar">
+                <input type="submit" value="ENVIAR">
+            </div><!--bnt-enviar-->
+         
+        </form>
+    </div><!--form-leads-->
+    </div><!--flex-->
+</div><!--container-->
+   </section>
+   
+   
+</body>
+</html>
